@@ -39,47 +39,43 @@ a{
 
 /*  ========  INDEX  ========  */
 
-/* ---- Header ---- */
+/* ---- nav ---- */
 
-header{
-    background-color: rgb(175, 33, 63);
-    padding: 20px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.color-nav{
+    background-color: rgb(161, 79, 97);
 }
 
-header nav ul{
-    display: flex;
-    gap: 40px;
-}
+/* ---- subtitulo ---- */
 
-/* ---- Portada ---- */
-
-.portada{
+.portada-index{
     background-color: rgb(223, 164, 97);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2px;
 }
 
-.portada h2{
-    padding: 10px;
+/* ---- main ---- */
+
+.div-btn-index{
+    padding: 30px;
 }
 
-/* ---- Fondo ---- */
-
-.fondo{
-    height: 100vh;
-    background-image: url(../img/fondo.jpg);
-    background-position: center;
-    background-size: cover;
+.btn-index{
+    color: rgb(223, 164, 97);
+    padding: 14px;
+    background-color: rgb(161, 79, 97);
+    border: solid  rgb(223, 164, 97);
+    border-radius: 30px;
 }
 
 /* ---- Footer ---- */
 
-.ul-footer{
+.f-index{
+    background-color: rgb(161, 79, 97)
+}
+
+.ul-f-index{
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -88,17 +84,14 @@ header nav ul{
     background-color: rgb(223, 164, 97);
 }
 
-
-
-.ul-footer-img{
+.img-ul-f-index{
     display: flex;
     gap: 30px;
     justify-content: center;
-    align-items: center;
+    
     padding: 20px;
-    background-color: rgb(175, 33, 63);
+    background-color: rgb(161, 79, 97);
 }
-
 
 
 /* ======== QUIENES SOMOS ======== */
@@ -108,7 +101,6 @@ header nav ul{
 .header-multipage{
     background-color: rgb(175, 33, 63);
     padding: 20px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;

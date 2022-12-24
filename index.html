@@ -16,53 +16,154 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="titulo">Tu Vinoteca Online</h1>
-        <nav>
-            <ul>
-                <li>Inicio</li>
-                <li><a href="./pages/quienessomos.html" class="link">Quienes Somos</a></li>
-                <li><a href="./pages/catalogo.html" class="link">Catálogo</a></li>
-                <li><a href="./pages/newsletter.html" class="link">NewsLetter</a></li>
-                <li><a href="./pages/contacto.html" class="link">Contacto</a></li>
-            </ul>
-        </nav>
+
+    <header class="color-nav">
+
+        <div class="navbar navbar-expand-lg border-bottom">
+
+            <div class="container">
+
+                <a class="navbar-brand titulo fw-bold" href="./index.html">
+                    <p class="fs-2">Tu Vinoteca Online</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">
+                                <p class="fs-5">Inicio</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/quienessomos.html">
+                                <p class="fs-5">Quienes Somos</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/catalogo.html">
+                                <p class="fs-5">Catálogo</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/newsletter.html">
+                                <p class="fs-5">NewsLetter</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">
+                                <p class="fs-5">Contacto</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
     </header>
+
+
     <main>
-        <section class="portada">
+
+        <section class="portada-index">
             <div>
-                <h2 class="sub-titulo">El vino que deseas al alcance de un clik</h2>
+                <h4 class="sub-titulo">Quienes Somos</h4>
             </div>
         </section>
-        <section class="fondo">
-            <div>
-                <h2></h2>
+
+        <section class="container">
+
+            <div class="row">
+
+                <div class="text-center col-lg order-lg-last">
+
+                    <img src="./img/vinitoh.png" alt="Imagen Patrocinador" class="img-fluid">
+                    
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./img/botella.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./img/botella.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/botella.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="text-center col-lg d-flex flex-column justify-content-center">
+
+                    <h2 class="text-center text-lg-start display-3 fw-normal">El vino que deseas al alcance de un clik</h2>
+
+                    <p class="text-center text-lg-start">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum voluptate ex, harum ipsa placeat dolorem quae. Obcaecati dolor voluptas dolorum perferendis quisquam, vel, odio sed nam delectus provident, sapiente quae?</p>
+
+                    <img src="./img/vinos-catalogo.png" alt="Imagen Ilustrativa del Catálogo" class="">
+
+                    <div class="d-flex justify-content-center div-btn-index">
+                    <a href="./pages/catalogo.html" class="btn-index">Ir al Catálogo</a>
+                    </div>
+
             </div>
+
         </section>
+
     </main>
-    <footer>
-        <section>
-            <div>
-                <ul class="ul-footer">
-                    <li>Inicio</li>
-                    <li><a href="./pages/quienessomos.html" class="link">Quienes Somos</a></li>
-                    <li><a href="./pages/catalogo.html" class="link">Catálogo</a></li>
-                    <li><a href="./pages/newsletter.html" class="link">NewsLetter</a></li>
-                    <li><a href="./pages/contacto.html" class="link">Contacto</a></li>
-                </ul>
-            </div>
+
+    <footer class="f-index">
+        <section class="s-index">
+            <ul class="ul-f-index">
+                <li><a href="../index.html" class="link">Inicio</a></li>
+                <li>Quienes Somos</li>
+                <li><a href="./catalogo.html" class="link">Catálogo</a></li>
+                <li><a href="./newsletter.html" class="link">NewsLetter</a></li>
+                <li><a href="./contacto.html" class="link">Contacto</a></li>
+            </ul>
         </section>
-        <section class="section-footer">
+        <section class="img-f-index">
             <div>
-                <ul class="ul-footer-img">
-                    <li><h3>Seguinos en:</h3></li>
-                    <li><img src="./img/fb.jpeg" alt=""></li>
-                    <li><img src="./img/ig.jpeg" alt=""></li>
-                    <li><img src="./img/in.png" alt=""></li>
+                <ul class="img-ul-f-index">
+                    <li><h3 class="titulo">Seguinos en:</h3></li>
+                    <li><img src="../img/fb.jpeg" alt=""></li>
+                    <li><img src="../img/ig.jpeg" alt=""></li>
+                    <li><img src="../img/in.png" alt=""></li>
                 </ul>
             </div>
         </section>
     </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 

@@ -212,6 +212,10 @@ overflow: auto;
     color: rgb(31, 31, 32);
 }
 
+.font-qs{
+    font-family:cursive;
+}
+
 /* ---- Footer ---- */
 
 .ul-footer-qs{

@@ -1,0 +1,483 @@
+@charset "UTF-8";
+.titulo {
+  font-family: cursive;
+  color: rgba(240, 192, 138, 0.849);
+}
+
+.sub-titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(97, 10, 29);
+}
+
+.link {
+  color: black;
+}
+
+.btn {
+  border: 2px solid black;
+  padding: 18px 16px;
+  border-radius: 20px;
+  background-color: rgb(161, 79, 97);
+  color: rgb(240, 193, 138);
+}
+
+/*  ========  INDEX  ========  */
+.padding-multi {
+  padding: 15px;
+}
+
+/* ---- nav ---- */
+.color-nav {
+  background-color: rgb(161, 79, 97);
+}
+
+/* ---- subtitulo ---- */
+.portada-index {
+  background-color: rgb(223, 164, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+/* ---- main ---- */
+.padding-index {
+  padding: 30px;
+}
+
+/* ---- Botón Index ---- */
+.contenedor-gg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+.btni {
+  position: relative;
+  padding: 20px 50px;
+  text-decoration: none;
+  color: rgb(223, 164, 97);
+  letter-spacing: 10px;
+}
+
+.btn-1 {
+  overflow: hidden;
+  border: solid 3px rgb(223, 164, 97);
+  z-index: 2;
+  color: rgb(223, 164, 97);
+  border-radius: 30px;
+}
+
+.btn-1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  left: 0;
+  top: -200%;
+  background-color: rgb(161, 79, 97);
+  border-radius: 50%;
+  transition: 0.6s;
+  z-index: -1;
+  color: rgb(223, 164, 97);
+}
+
+.btn-1:hover::before {
+  top: 0;
+  border-radius: 0%;
+  color: rgb(223, 164, 97);
+}
+
+/* ---- Footer ---- */
+.space-f {
+  padding: 15px;
+  background-color: white;
+}
+
+.f-index {
+  background-color: rgb(161, 79, 97);
+}
+
+.ul-f-index {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(223, 164, 97);
+}
+
+.img-ul-f-index {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 1px;
+  background-color: rgb(161, 79, 97);
+}
+
+.color-r {
+  background-color: rgb(223, 164, 97);
+}
+
+.gap-ff {
+  gap: 40PX;
+}
+
+.color-i {
+  color: black;
+}
+
+/* ======== QUIENES SOMOS ======== */
+/* ---- Header ---- */
+.header-multipage {
+  background-color: rgb(175, 33, 63);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-multipage {
+  display: flex;
+  gap: 40px;
+}
+
+/* ---- Portada ---- */
+.portada-qs {
+  background-color: rgb(223, 164, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* ---- Fondo ---- */
+.fondo-qs {
+  height: 100vh;
+  background-image: url(../img/bodega.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-fondo-qs {
+  background-color: rgba(175, 33, 64, 0.511);
+  height: 280px;
+  width: 820px;
+  border: solid 10px rgba(223, 164, 97, 0.338);
+  padding: 15px;
+  border-radius: 30px;
+  overflow: auto;
+}
+
+.h3-fondo-qs {
+  color: rgb(31, 31, 32);
+}
+
+.font-qs {
+  font-family: cursive;
+}
+
+/* ---- Footer ---- */
+.ul-footer-qs {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(223, 164, 97);
+}
+
+.img-ul-footer-qs {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(175, 33, 63);
+}
+
+/* ======== CATALOGO ======== */
+/* ---- Header ---- */
+.header-cat {
+  background-color: rgb(175, 33, 63);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-cat {
+  display: flex;
+  gap: 40px;
+}
+
+/* ---- Portada ---- */
+.portada-cat {
+  background-color: rgb(223, 164, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* ---- Fondo ---- */
+.tarjeta-vino {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarjeta-vino img {
+  width: 100%;
+}
+
+.tarjeta-vino span {
+  overflow: auto;
+}
+
+span {
+  padding: 15px;
+}
+
+.stand-1 {
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.space-cat {
+  padding: 20px;
+}
+
+.stand-2 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+/* ---- Footer ---- */
+.ul-footer-cat {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(223, 164, 97);
+}
+
+.img-ul-footer-cat {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(175, 33, 63);
+}
+
+/* ======== NEWSLETTER ======== */
+/* ---- Header ---- */
+.header-new {
+  background-color: rgb(175, 33, 63);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-new {
+  display: flex;
+  gap: 40px;
+}
+
+/* ---- Portada ---- */
+.portada-new {
+  background-color: rgb(223, 164, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* ---- Fondo ---- */
+.fondo-new {
+  height: 100vh;
+  background-image: url(../img/noticias.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondo-new {
+  align-content: center;
+}
+
+.h3-new {
+  background-color: rgb(175, 33, 63);
+  padding: 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.h4-new {
+  background-color: rgb(223, 164, 97);
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.form-new {
+  background-color: rgba(223, 164, 97, 0.338);
+  border: solid 5px rgba(175, 33, 64, 0.511);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.check-form {
+  padding: 10px;
+  display: block;
+}
+
+.text-form {
+  padding: 10px;
+}
+
+.form {
+  padding: 10px;
+}
+
+/* ---- Footer ---- */
+.ul-footer-new {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(223, 164, 97);
+}
+
+.img-ul-footer-new {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(175, 33, 63);
+}
+
+/* ======== CONTACTO ======== */
+/* ---- Header ---- */
+.header-con {
+  background-color: rgb(175, 33, 63);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul-con {
+  display: flex;
+  gap: 40px;
+}
+
+/* ---- Portada ---- */
+.portada-con {
+  background-color: rgb(223, 164, 97);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* ---- Fondo ---- */
+.fondo-con {
+  height: 100vh;
+  background-image: url(../img/contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.h3-new {
+  background-color: rgb(175, 33, 63);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.h4-con {
+  background-color: rgb(223, 164, 97);
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.form-con {
+  background-color: rgba(223, 164, 97, 0.338);
+  border: solid 5px rgba(175, 33, 64, 0.511);
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.text-form {
+  padding: 10px;
+}
+
+.form {
+  padding: 10px;
+}
+
+/* ---- Footer ---- */
+.ul-footer-con {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(223, 164, 97);
+}
+
+.img-ul-footer-con {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(175, 33, 63);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: #17a2ff;
+}
+:root a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/*# sourceMappingURL=styles.css.map */

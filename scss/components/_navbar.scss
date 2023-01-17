@@ -1,0 +1,37 @@
+.colornav{
+    background-color: rgb(161, 79, 97);
+
+    &__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .colornav__titulo{
+        font-family: cursive;
+        color: rgba(240, 192, 138, 0.849);
+        padding: 10px 0px 0px 0px;
+        }
+    }
+
+}
+
+
+.subtitulo{
+    background-color: rgb(223, 164, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px 0px 0px;
+
+    &__boxtexto{
+        color: rgb(97, 10, 29);
+
+        .subtitulo__texto{
+            font-size: 24px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+
+    
+}
+

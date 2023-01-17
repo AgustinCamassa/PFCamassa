@@ -1,0 +1,38 @@
+.footer{
+    background-color: rgb(223, 164, 97);
+    &__box{
+        &--color-s{
+            background-color: rgb(223, 164, 97);
+        }
+    }
+}
+
+.ul-f-index{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(223, 164, 97);
+}
+
+.img-ul-f-index{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+    padding: 1px;
+    background-color: rgb(161, 79, 97);
+}
+
+.color-r{
+    background-color: rgb(223, 164, 97);
+}
+
+.gap-ff{
+    gap: 40PX;
+}
+
+.color-i{
+    color: black;
+}

@@ -82,9 +82,29 @@ ol {
   padding: 10px;
 }
 .footer__box-texto--links .footer__box-texto--p {
-  padding: 40px;
+  padding: 30px 30px;
   color: rgb(161, 79, 97);
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.footer2 {
+  background-color: rgb(161, 79, 97);
+}
+.footer2__box-redes--links {
+  padding: 10px;
+}
+.footer2__box-redes--links .footer2__p {
+  font-family: cursive;
+  font-size: 20px;
+  color: rgb(223, 164, 97);
+  padding: 10px;
+}
+.footer2__box-redes--links .footer2__ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 12px;
+  background-color: rgb(161, 79, 97);
 }
 
 .ul-f-index {
@@ -94,26 +114,6 @@ ol {
   align-items: center;
   padding: 15px;
   background-color: rgb(223, 164, 97);
-}
-
-.img-ul-f-index {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  padding: 1px;
-  background-color: rgb(161, 79, 97);
-}
-
-.color-r {
-  background-color: rgb(223, 164, 97);
-}
-
-.gap-ff {
-  gap: 40PX;
-}
-
-.color-i {
-  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,10 +6,34 @@
             padding: 10px;
 
             .footer__box-texto--p{
-                padding: 40px;
+                padding: 30px 30px;
                 color: $color-primario;
                 font-family: $fuente-secundaria;
             }
+        }
+    }
+}
+
+.footer2{
+    background-color: $color-primario;
+    &__box-redes{
+        &--links{
+            padding: 10px;
+
+            .footer2__p{
+                font-family: $fuente-principal;
+                font-size: 20px;
+                color: $color-secundario;
+                padding: 10px;
+            }
+
+            .footer2__ul{
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+                padding: 12px;
+                background-color: $color-primario;
+            }            
         }
     }
 }
@@ -21,25 +45,4 @@
     align-items: center;
     padding: 15px;
     background-color: $color-secundario;
-}
-
-.img-ul-f-index{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    
-    padding: 1px;
-    background-color: $color-primario;
-}
-
-.color-r{
-    background-color: $color-secundario;
-}
-
-.gap-ff{
-    gap: 40PX;
-}
-
-.color-i{
-    color: black;
 }

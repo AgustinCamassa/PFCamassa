@@ -9,12 +9,23 @@
     .colornav__titulo{
         font-family: cursive;
         color: rgba(240, 192, 138, 0.849);
-        padding: 10px 0px 0px 0px;
+        padding: 10px 10px 0px 0px;
         }
     }
 
     .colornav__nav{
         padding: 10px 0px 0px 0px;
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    .fs-5{
+                        font-family: $fuente-secundaria;
+                        color: $color-secundario;
+                        padding: 0px 8px;
+                    }
+                }
+            }
+        }
     }
 
 }

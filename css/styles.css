@@ -33,10 +33,15 @@ ol {
 .colornav__box .colornav__titulo {
   font-family: cursive;
   color: rgba(240, 192, 138, 0.849);
-  padding: 10px 0px 0px 0px;
+  padding: 10px 10px 0px 0px;
 }
 .colornav .colornav__nav {
   padding: 10px 0px 0px 0px;
+}
+.colornav .colornav__nav .navbar-nav .nav-item .nav-link .fs-5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(223, 164, 97);
+  padding: 0px 8px;
 }
 
 .subtitulo {
@@ -97,23 +102,14 @@ ol {
   font-family: cursive;
   font-size: 20px;
   color: rgb(223, 164, 97);
-  padding: 10px;
+  padding: 12px 0px 0px 0px;
 }
 .footer2__box-redes--links .footer2__ul {
   display: flex;
   gap: 30px;
   justify-content: center;
-  padding: 12px;
+  padding: 16px 0px 0px 0px;
   background-color: rgb(161, 79, 97);
-}
-
-.ul-f-index {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  background-color: rgb(223, 164, 97);
 }
 
 /*# sourceMappingURL=styles.css.map */

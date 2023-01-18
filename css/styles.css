@@ -1,13 +1,3 @@
-.titulo {
-  font-family: cursive;
-  color: rgba(240, 192, 138, 0.849);
-}
-
-.sub-titulo {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(97, 10, 29);
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +21,7 @@ ol {
   color: black;
 }
 
+@Import "./components/titulos";
 .colornav {
   background-color: rgb(161, 79, 97);
 }
@@ -42,6 +33,9 @@ ol {
 .colornav__box .colornav__titulo {
   font-family: cursive;
   color: rgba(240, 192, 138, 0.849);
+  padding: 10px 0px 0px 0px;
+}
+.colornav .colornav__nav {
   padding: 10px 0px 0px 0px;
 }
 
@@ -84,8 +78,13 @@ ol {
 .footer {
   background-color: rgb(223, 164, 97);
 }
-.footer__box--color-s {
-  background-color: rgb(223, 164, 97);
+.footer__box-texto--links {
+  padding: 10px;
+}
+.footer__box-texto--links .footer__box-texto--p {
+  padding: 40px;
+  color: rgb(161, 79, 97);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .ul-f-index {

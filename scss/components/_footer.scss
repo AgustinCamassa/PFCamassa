@@ -1,8 +1,15 @@
 .footer{
-    background-color: rgb(223, 164, 97);
-    &__box{
-        &--color-s{
-            background-color: rgb(223, 164, 97);
+    background-color: $color-secundario;
+
+    &__box-texto{
+        &--links{
+            padding: 10px;
+
+            .footer__box-texto--p{
+                padding: 40px;
+                color: $color-primario;
+                font-family: $fuente-secundaria;
+            }
         }
     }
 }
@@ -13,7 +20,7 @@
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background-color: rgb(223, 164, 97);
+    background-color: $color-secundario;
 }
 
 .img-ul-f-index{
@@ -22,11 +29,11 @@
     justify-content: center;
     
     padding: 1px;
-    background-color: rgb(161, 79, 97);
+    background-color: $color-primario;
 }
 
 .color-r{
-    background-color: rgb(223, 164, 97);
+    background-color: $color-secundario;
 }
 
 .gap-ff{

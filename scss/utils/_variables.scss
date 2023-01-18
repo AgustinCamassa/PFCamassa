@@ -1,9 +1,7 @@
-.titulo{
-    font-family: cursive;
-    color: rgba(240, 192, 138, 0.849);
-}
+$color-primario: rgb(161, 79, 97);
+$color-secundario: rgb(223, 164, 97);
 
-.sub-titulo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(97, 10, 29);
-}
+$fuente-principal: cursive;
+$fuente-secundaria: Georgia, 'Times New Roman', Times, serif;
+
+$gap: 400px;

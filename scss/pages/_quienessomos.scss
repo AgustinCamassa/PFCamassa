@@ -11,18 +11,18 @@
     padding: 50px;
 
     &__box{
-        background-color: rgba(223, 164, 97, 0.483);
+        background-color: $color-s-transparencia;
         height: 280px;
         width: 820px;
         
-        border: solid 10px rgba(175, 33, 64, 0.511);
+        border: solid 10px $color-p-transparencia;
         padding: 15px;
         border-radius: 30px;
         overflow: auto;
     }
 
     &__texto{
-        color: rgba(31, 31, 32, 0.792);
+        color: $color-texto-box;
         font-family:cursive;
     }
 }

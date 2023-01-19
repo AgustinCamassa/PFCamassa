@@ -21,7 +21,16 @@ ol {
   color: black;
 }
 
-@Import "./components/titulos";
+.titulo {
+  font-family: cursive;
+  color: rgb(223, 164, 97);
+}
+
+.sub-titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(161, 79, 97);
+}
+
 .colornav {
   background-color: rgb(161, 79, 97);
 }
@@ -123,7 +132,7 @@ ol {
   padding: 50px;
 }
 .fondo__box {
-  background-color: rgba(223, 164, 97, 0.483);
+  background-color: rgba(223, 164, 97, 0.338);
   height: 280px;
   width: 820px;
   border: solid 10px rgba(175, 33, 64, 0.511);
@@ -134,6 +143,45 @@ ol {
 .fondo__texto {
   color: rgba(31, 31, 32, 0.792);
   font-family: cursive;
+}
+
+.fondo-n {
+  height: 100vh;
+  background-image: url(../img/noticias.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
+}
+.fondo-n__div .fondo-n__box-n--titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(161, 79, 97);
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-n__div .fondo-n__box-n--subtitulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(223, 164, 97);
+  font-size: 20px;
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-n .form-n__div .form-n__box-general .form-n__box-form .form-n__h3 {
+  padding: 10px;
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-n .form-n__div .form-n__box-general .form-n__box-form .form-n__input {
+  padding: 10px;
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-n .form-n__div .form-n__box-general .form-n__box-form .form-n__h3 {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(161, 79, 97);
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-n .form-n__div .form-n__box-general .form-n__box-form .form-n__check {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(223, 164, 97);
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
 }
 
 /*# sourceMappingURL=styles.css.map */

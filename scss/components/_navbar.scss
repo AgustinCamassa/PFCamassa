@@ -1,5 +1,5 @@
 .colornav{
-    background-color: rgb(161, 79, 97);
+    background-color: $color-primario;
 
     &__box{
     display: flex;
@@ -8,13 +8,13 @@
 
     .colornav__titulo{
         font-family: cursive;
-        color: rgba(240, 192, 138, 0.849);
+        color: $color-secundario;
         padding: 10px 10px 0px 0px;
         }
     }
 
     .colornav__nav{
-        padding: 10px 0px 0px 0px;
+        padding: 16px 0px 0px 0px;
         .navbar-nav{
             .nav-item{
                 .nav-link{
@@ -32,14 +32,14 @@
 
 
 .subtitulo{
-    background-color: rgb(223, 164, 97);
+    background-color: $color-secundario;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 0px 0px 0px;
 
     &__boxtexto{
-        color: rgb(97, 10, 29);
+        color: $color-primario;
 
         .subtitulo__texto{
             font-size: 24px;

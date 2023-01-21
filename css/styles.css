@@ -118,8 +118,17 @@ ol {
 .tarjeta__box .tarjeta__padding-img {
   padding-bottom: 4px;
 }
-.tarjeta__box .tarjeta__padding-texto {
+.tarjeta__box .tarjeta__footer .tarjeta__padding-texto {
   padding: 6px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tarjeta__box .tarjeta__footer .tarjeta__padding-precio {
+  padding: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+.tarjeta__box .tarjeta__footer .tarjeta__padding-btn {
+  padding: 0px;
 }
 
 .space {

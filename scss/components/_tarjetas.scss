@@ -7,8 +7,22 @@
             padding-bottom: 4px;
         }
 
-        .tarjeta__padding-texto{
-            padding: 6px;
+        .tarjeta__footer{
+
+            .tarjeta__padding-texto{
+                padding: 6px;
+                font-family: $fuente-secundaria;
+            }
+
+            .tarjeta__padding-precio{
+                padding: 0px;
+                font-family: $fuente-secundaria;
+                color: black;
+            }
+
+            .tarjeta__padding-btn{
+                padding: 0px;
+            }
         }
     }
 }

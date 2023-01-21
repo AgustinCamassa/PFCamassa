@@ -1,9 +1,9 @@
 .titulo{
     font-family: $fuente-principal;
     color: $color-secundario;
-}
 
-.sub-titulo{
-    font-family: $fuente-secundaria;
-    color: $color-primario;
+    .sub-titulo{
+        font-family: $fuente-secundaria;
+        color: $color-primario;
+    }
 }

@@ -14,7 +14,7 @@
     z-index: 2;
     color: $color-primario;
     border-radius: 30px;
-}
+    }
 
 .btn-1::before{
     content: "";
@@ -34,12 +34,4 @@
     top: 0;
     border-radius: 0%;
     color: $color-primario;
-}
-
-.padding-index{
-    padding: 20px;
-}
-
-.padding-btn-index{
-    padding: 20px;
 }

@@ -1,12 +1,14 @@
-.padding{
-    padding: 6px 0px;
-}
+.tarjeta{
+    &__box{
+        background-color: $color-s-transparencia;
+        padding: 10px;
 
-.padding-img{
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
+        .tarjeta__padding-img{
+            padding-bottom: 4px;
+        }
 
-.padding-btn{
-    padding-bottom: 24px;
+        .tarjeta__padding-texto{
+            padding: 6px;
+        }
+    }
 }

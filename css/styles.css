@@ -25,8 +25,7 @@ ol {
   font-family: cursive;
   color: rgb(223, 164, 97);
 }
-
-.sub-titulo {
+.titulo .sub-titulo {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(161, 79, 97);
 }
@@ -105,22 +104,6 @@ ol {
   color: rgb(161, 79, 97);
 }
 
-.padding-index {
-  padding: 20px;
-}
-
-.padding-btn-index {
-  padding: 20px;
-}
-
-.color-p {
-  background-color: rgb(161, 79, 97);
-}
-
-.color-s {
-  background-color: rgb(223, 164, 97);
-}
-
 .color-formularios {
   background-color: rgba(223, 164, 97, 0.338);
   border: solid 10px rgba(175, 33, 64, 0.511);
@@ -128,22 +111,19 @@ ol {
   border-radius: 30px;
 }
 
-.padding {
-  padding: 6px 0px;
+.tarjeta__box {
+  background-color: rgba(223, 164, 97, 0.338);
+  padding: 10px;
 }
-
-.padding-img {
-  padding-top: 20px;
-  padding-bottom: 10px;
+.tarjeta__box .tarjeta__padding-img {
+  padding-bottom: 4px;
 }
-
-.padding-btn {
-  padding-bottom: 24px;
+.tarjeta__box .tarjeta__padding-texto {
+  padding: 6px;
 }
 
 .space {
-  padding: 15px;
-  background-color: white;
+  padding: 2%;
 }
 
 .footer {
@@ -178,9 +158,16 @@ ol {
   background-color: rgb(161, 79, 97);
 }
 
+.padding-index {
+  padding: 20px;
+}
+.padding-index .padding-btn-index {
+  padding: 20px;
+}
+
 .fondo {
   height: 100vh;
-  background-image: url(../img/bodega.jpg);
+  background-image: url(../../img/bodega.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -204,7 +191,7 @@ ol {
 
 .fondo-n {
   height: 100vh;
-  background-image: url(../img/noticias.jpg);
+  background-image: url(../../img/noticias.jpg);
   background-position: center;
   background-size: cover;
   padding: 7%;
@@ -244,7 +231,7 @@ ol {
 
 .fondo-c {
   height: 100vh;
-  background-image: url(../img/contacto.jpg);
+  background-image: url(../../img/contacto.jpg);
   background-position: center;
   background-size: cover;
   padding: 7%;

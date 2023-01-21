@@ -1,12 +1,14 @@
 @import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/condiciones";
 
 @import "./base/base";
 
 @import "./components/titulos";
 @import "./components/navbar";
+@import "./components/botones";
 @import "./components/color";
 @import "./components/tarjetas";
-@import "./components/botones";
 @import "./components/space";
 @import "./components/footer";
 

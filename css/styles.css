@@ -68,6 +68,43 @@ ol {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.btni {
+  position: relative;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: rgb(161, 79, 97);
+  letter-spacing: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn-1 {
+  overflow: hidden;
+  border: solid 3px rgb(161, 79, 97);
+  z-index: 2;
+  color: rgb(161, 79, 97);
+  border-radius: 30px;
+}
+
+.btn-1::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  left: 0;
+  top: -200%;
+  background-color: rgb(223, 164, 97);
+  border-radius: 50%;
+  transition: 0.8s;
+  z-index: -1;
+  color: rgb(161, 79, 97);
+}
+
+.btn-1:hover::before {
+  top: 0;
+  border-radius: 0%;
+  color: rgb(161, 79, 97);
+}
+
 .color-p {
   background-color: rgb(161, 79, 97);
 }
@@ -76,12 +113,17 @@ ol {
   background-color: rgb(223, 164, 97);
 }
 
-.btn {
-  border: 2px solid black;
-  padding: 18px 16px;
-  border-radius: 20px;
-  background-color: rgb(161, 79, 97);
-  color: rgb(240, 193, 138);
+.padding {
+  padding: 6px 0px;
+}
+
+.padding-img {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.padding-btn {
+  padding-bottom: 24px;
 }
 
 .space {

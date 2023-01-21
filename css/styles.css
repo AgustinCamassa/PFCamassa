@@ -22,7 +22,7 @@ ol {
 }
 
 .titulo {
-  font-family: cursive;
+  font-family: Cursive;
   color: rgb(223, 164, 97);
 }
 .titulo .sub-titulo {
@@ -118,14 +118,24 @@ ol {
 .tarjeta__box .tarjeta__padding-img {
   padding-bottom: 4px;
 }
-.tarjeta__box .tarjeta__footer .tarjeta__padding-texto {
+.tarjeta__box .tarjeta__footer .tarjeta__padding-texto, .tarjeta__box .tarjeta__footer .tarjeta__padding-texto--oferta {
   padding: 6px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.4rem;
 }
-.tarjeta__box .tarjeta__footer .tarjeta__padding-precio {
+.tarjeta__box .tarjeta__footer .tarjeta__padding-texto--oferta {
+  text-decoration: underline;
+  color: red;
+  font-size: 20px;
+}
+.tarjeta__box .tarjeta__footer .tarjeta__padding-precio, .tarjeta__box .tarjeta__footer .tarjeta__padding-precio--oferta {
   padding: 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: black;
+  font-size: 1.2rem;
+}
+.tarjeta__box .tarjeta__footer .tarjeta__padding-precio--oferta {
+  color: red;
+  font-size: 1.4rem;
 }
 .tarjeta__box .tarjeta__footer .tarjeta__padding-btn {
   padding: 0px;
@@ -154,7 +164,7 @@ ol {
   padding: 10px;
 }
 .footer2__box-redes--links .footer2__p {
-  font-family: cursive;
+  font-family: Cursive;
   font-size: 20px;
   color: rgb(223, 164, 97);
   padding: 12px 0px 0px 0px;
@@ -195,7 +205,7 @@ ol {
 }
 .fondo__texto {
   color: rgba(31, 31, 32, 0.792);
-  font-family: cursive;
+  font-family: Cursive;
 }
 
 .fondo-n {

@@ -12,12 +12,26 @@
             .tarjeta__padding-texto{
                 padding: 6px;
                 font-family: $fuente-secundaria;
+                font-size: 1.4rem;
+
+                &--oferta{
+                    @extend .tarjeta__padding-texto;
+                    text-decoration: underline;
+                    color: red;
+                    font-size: 20px;
+                }
             }
 
             .tarjeta__padding-precio{
                 padding: 0px;
                 font-family: $fuente-secundaria;
-                color: black;
+                font-size: 1.2rem;
+
+                &--oferta{
+                    @extend .tarjeta__padding-precio;
+                    color: red;
+                    font-size: 1.4rem;
+                }
             }
 
             .tarjeta__padding-btn{

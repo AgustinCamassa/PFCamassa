@@ -105,12 +105,27 @@ ol {
   color: rgb(161, 79, 97);
 }
 
+.padding-index {
+  padding: 20px;
+}
+
+.padding-btn-index {
+  padding: 20px;
+}
+
 .color-p {
   background-color: rgb(161, 79, 97);
 }
 
 .color-s {
   background-color: rgb(223, 164, 97);
+}
+
+.color-formularios {
+  background-color: rgba(223, 164, 97, 0.338);
+  border: solid 10px rgba(175, 33, 64, 0.511);
+  padding: 15px;
+  border-radius: 30px;
 }
 
 .padding {
@@ -189,10 +204,11 @@ ol {
 
 .fondo-n {
   height: 100vh;
-  background-image: url(../img/noticias.jpg);
+  background-image: url(../../img/noticias.jpg);
   background-position: center;
   background-size: cover;
-  padding-top: 150px;
+  padding: 7%;
+  overflow: auto;
 }
 .fondo-n__div .fondo-n__box-n--titulo {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -220,6 +236,46 @@ ol {
   text-shadow: 1px 1px 15px rgb(0, 0, 0);
 }
 .fondo-n .form-n__div .form-n__box-general .form-n__box-form .form-n__check {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(223, 164, 97);
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+
+.fondo-c {
+  height: 100vh;
+  background-image: url(../../img/contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 7%;
+  overflow: auto;
+}
+.fondo-c__div .fondo-n__box-n--titulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(161, 79, 97);
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-c__div .fondo-n__box-n--subtitulo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(223, 164, 97);
+  font-size: 20px;
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-c .form-n__div .form-n__box-general .form-n__box-form .form-n__h3 {
+  padding: 10px;
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-c .form-n__div .form-n__box-general .form-n__box-form .form-n__input {
+  padding: 10px;
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-c .form-n__div .form-n__box-general .form-n__box-form .form-n__h3 {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(161, 79, 97);
+  text-shadow: 1px 1px 15px rgb(0, 0, 0);
+}
+.fondo-c .form-n__div .form-n__box-general .form-n__box-form .form-n__check {
   padding: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(223, 164, 97);

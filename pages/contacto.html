@@ -19,7 +19,7 @@
 
 <body>
     <header>
-        <div class="colornav navbar navbar-expand-lg border-bottom">
+        <div class="colornav navbar navbar-expand-lg border-bottom ">
             <div class="colornav__box container">
                 <a class="navbar-brand colornav__titulo fw-bold" href="./index.html">
                     <p class="fs-2">Tu Vinoteca Online</p>
@@ -65,39 +65,82 @@
         </section>
     </header>
 
-    <main class="con">
-        <section class="portada-con">
-            <div>
-                <h2 class="sub-titulo">Contacto</h2>
-            </div>
-        </section>
-        <section class="fondo-con">
-            <div class="titulos-con">
-                <h3 class="h3-new">Centro de asistencia</h3>
-                <h4 class="h4-new">Por favor, complete el siguiente formulario:</h4>
-            <section class="space-cat">
-                <div></div>
-            </section>
-            <div class="div-form-con">
-                <form action="" class="form-con">
-                    <h3 class="text-form">Nombre y Apellido:</h3>
-                    <input type="text" class="form">
-                    <h3 class="text-form">DNI:</h3>
-                    <input type="number" class="form">
-                    <h3 class="text-form">Correo electrónico:</h3>
-                    <input type="email" class="form">
-                    <h3 class="text-form">Razón de asistencia:</h3>
-                    <textarea name="" id=""  cols="30" rows="10"></textarea>
-                    <div class="check-form">
-                        <label for="tyc">Acepto los términos y condiciones</label>
-                        <input type="checkbox" id="tyc">
-                        <div></div>
-                        <label for="18">Soy mayor de 18 años</label>
-                        <input type="checkbox" id="18">
+    <main>
+        <div class="espacio-formulario"></div>
+        <section class="align-items-center justify-content-end fondo-c">
+
+            <div class="color-formularios">
+                <div class="container fondo-n__div">
+                    <div class="row fondo-n__box-n">
+                        <h2 class="fondo-n__box-n--titulo">Centro de contacto y asistencia</h2>
+                        <p class="fondo-n__box-n--subtitulo">Por favor, complete el siguiente formulario:</p>
                     </div>
-                    <input type="reset" value="Restablecer formulario">
-                    <input type="submit" value="Enviar">
-                </form>
+                </div>
+    
+                <div class="container fondo-c__box">
+                    <form class="row g-3 mt-3">
+        
+                        <div class="col-lg-6">
+                            <label for="nameinput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nameinput" placeholder="Escriba su nomble completo">
+                        </div>
+        
+                        <div class="col-lg-6">
+                            <label for="surnameinput" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="surnameinput" placeholder="Escriba su/s apellido/s">
+                        </div>
+        
+                        <div class="col-lg-12">
+                            <label for="emailinput" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="emailinput" placeholder="Escribe su email">
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label for="cityinput" class="form-label">Ciudad</label>
+                            <input type="email" class="form-control" id="cityinput" placeholder="Escriba aquí">
+                        </div>
+        
+                        <div class="col-lg-3">
+                            <label for="postalcodeinput" class="form-label">Código Postal</label>
+                            <input type="email" class="form-control" id="postalcodeinput" placeholder="Escriba aquí">
+                        </div>
+        
+                        <div class="col-lg-3">
+                            <label for="countryinput" class="form-label">Pais</label>
+                            <input type="email" class="form-control" id="countryinput" placeholder="Escriba aquí">
+                        </div>
+    
+                        <div class="col-gl-12">
+                            <label for="textareainput" class="form-label">Razón de Asistencia</label>
+                            <textarea name="mensaje" id="textareainput" placeholder="Explique su razón de contacto y/o asistencia..." class="form-control"></textarea>
+                        </div>
+        
+                        <div class="col-12">
+                            <div class="form-check">
+                                <label for="tyc">Acepto los términos y condiciones</label>
+                                <input type="checkbox" id="tyc">
+                                <div></div>
+                                <label for="18">Soy mayor de 18 años</label>
+                                <input type="checkbox" id="18">
+                            </div>
+                        </div>
+        
+                        <div class="col-1 col-lg-3"></div>
+        
+                        <div class="col-5 col-lg-3">
+                            <input type="reset" value="Reset">
+                        </div>
+
+                        <div class="col-5 col-lg-3">
+                            <input type="submit" value="Enviar">
+                        </div>
+
+                        <div class="col-1 col-lg-3"></div>
+        
+                    </form>
+                </div>
+            </div>
+
         </section>
     </main>
 

@@ -66,32 +66,60 @@
     </header>
 
     <main>
-        <section class="text-center fondo-n">
-            <div class="container fondo-n__div">
-                <div class="row fondo-n__box-n">
-                    <h2 class="fondo-n__box-n--titulo">Bienvenido a nuestro NewsLetter!</h2>
-                    <p class="fondo-n__box-n--subtitulo">Reciba ofertas exclusivas y todas las novedades de Tu Vinoteca Online!</p>
-                </div>
-            </div>
+        <section class="align-items-center justify-content-end fondo-n">
 
-            <div class="container form-n__div">
-                <div class="form-n__box-general">
-                    <form action="" class="form-n__box-form">
-                        <h3 class="form-n__h3">Nombre:</h3>
-                        <input type="text" class="form-n__input">
-                        <h3 class="form-n__h3">Correo electrónico:</h3>
-                        <input type="email" class="form-n__input">
-                        <div class="form-n__check">
-                            <label for="tyc">Acepto los términos y condiciones</label>
-                            <input type="checkbox" id="terminos-y-condiciones">
-                            <div></div>
-                            <label for="18">Soy mayor de 18 años</label>
-                            <input type="checkbox" id="control-de-edad">
+            <div class="color-formularios">
+                <div class="container fondo-n__div">
+                    <div class="row fondo-n__box-n">
+                        <h2 class="fondo-n__box-n--titulo">Bienvenido a nuestro NewsLetter!</h2>
+                        <p class="fondo-n__box-n--subtitulo">Reciba ofertas exclusivas y todas las novedades de Tu Vinoteca Online!</p>
+                    </div>
+                </div>
+    
+                <div class="container">
+                    <form class="row g-3 mt-3">
+        
+                        <div class="col-lg-6">
+                            <label for="nameinput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nameinput" placeholder="Escriba su nomble completo">
                         </div>
-                        <input type="submit" value="Enviar">
+        
+                        <div class="col-lg-6">
+                            <label for="surnameinput" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="surnameinput" placeholder="Escriba su/s apellido/s">
+                        </div>
+        
+                        <div class="col-lg-12">
+                            <label for="emailinput" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="emailinput" placeholder="Escribe su email">
+                        </div>
+        
+                        <div class="col-12">
+                            <div class="form-check">
+                                <label for="tyc">Acepto los términos y condiciones</label>
+                                <input type="checkbox" id="tyc">
+                                <div></div>
+                                <label for="18">Soy mayor de 18 años</label>
+                                <input type="checkbox" id="18">
+                            </div>
+                        </div>
+        
+                        <div class="col-3"></div>
+
+                        <div class="col-3">
+                            <input type="reset" value="Reset">
+                        </div>
+
+                        <div class="col-3">
+                            <input type="submit" value="Enviar">
+                        </div>
+                        
+                        <div class="col-3"></div>
+        
                     </form>
                 </div>
             </div>
+
         </section>
     </main>
 

@@ -14,24 +14,24 @@
     z-index: 2;
     color: $color-primario;
     border-radius: 30px;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 200%;
+        left: 0;
+        top: -200%;
+        background-color: $color-secundario;
+        border-radius: 50%;
+        transition: 0.8s;
+        z-index: -1;
+        color: $color-primario;
     }
-
-.btn-1::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 200%;
-    left: 0;
-    top: -200%;
-    background-color: $color-secundario;
-    border-radius: 50%;
-    transition: 0.8s;
-    z-index: -1;
-    color: $color-primario;
-}
-
-.btn-1:hover::before{
-    top: 0;
-    border-radius: 0%;
-    color: $color-primario;
+    
+    &:hover::before{
+        top: 0;
+        border-radius: 0%;
+        color: $color-primario;
+    }
 }

@@ -83,7 +83,6 @@ ol {
   color: rgb(161, 79, 97);
   border-radius: 30px;
 }
-
 .btn-1::before {
   content: "";
   position: absolute;
@@ -97,7 +96,6 @@ ol {
   z-index: -1;
   color: rgb(161, 79, 97);
 }
-
 .btn-1:hover::before {
   top: 0;
   border-radius: 0%;
@@ -105,14 +103,14 @@ ol {
 }
 
 .color-formularios {
-  background-color: rgba(223, 164, 97, 0.338);
+  background-color: rgba(236, 180, 116, 0.493);
   border: solid 10px rgba(175, 33, 64, 0.511);
   padding: 15px;
   border-radius: 30px;
 }
 
 .tarjeta__box {
-  background-color: rgba(223, 164, 97, 0.338);
+  background-color: rgba(236, 180, 116, 0.493);
   padding: 10px;
 }
 .tarjeta__box .tarjeta__padding-img {
@@ -195,7 +193,7 @@ ol {
   padding: 50px;
 }
 .fondo__box {
-  background-color: rgba(223, 164, 97, 0.338);
+  background-color: rgba(236, 180, 116, 0.493);
   height: 280px;
   width: 820px;
   border: solid 10px rgba(175, 33, 64, 0.511);
@@ -264,7 +262,7 @@ ol {
 .fondo-c__div .fondo-n__box-n--subtitulo {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(223, 164, 97);
-  font-size: 20px;
+  font-size: 20xpx;
   text-shadow: 1px 1px 15px rgb(0, 0, 0);
 }
 .fondo-c .form-n__div .form-n__box-general .form-n__box-form .form-n__h3 {

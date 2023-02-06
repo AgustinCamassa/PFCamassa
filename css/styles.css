@@ -127,6 +127,8 @@ ol {
 .tarjeta__box {
   background-color: rgba(236, 180, 116, 0.493);
   padding: 10px;
+  margin: 30px;
+  position: relative;
 }
 .tarjeta__box .tarjeta__padding-img {
   padding-bottom: 4px;
@@ -152,6 +154,11 @@ ol {
 }
 .tarjeta__box .tarjeta__footer .tarjeta__padding-btn {
   padding: 0px;
+}
+
+.tarjeta:hover {
+  transform: scale(1.1);
+  transition: 2s;
 }
 
 .space {

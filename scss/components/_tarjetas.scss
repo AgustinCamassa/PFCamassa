@@ -5,6 +5,9 @@
         margin: 30px;
         position: relative;
 
+        transform: scale(1.1);
+        transition: ease-in 1s;
+
         .tarjeta__padding-img{
             padding-bottom: 4px;
         }
@@ -45,5 +48,5 @@
 
 .tarjeta:hover{
     transform: scale(1.1);
-    transition: 2s;
+    transition: ease-in 1s;
 }

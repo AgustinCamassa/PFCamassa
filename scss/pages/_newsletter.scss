@@ -5,7 +5,11 @@
     background-size: cover;
     padding: 7%;
     overflow: auto;
-    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     &__div{    
         .fondo-n__box-n{
             &--titulo{

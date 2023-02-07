@@ -127,10 +127,7 @@ ol {
 .tarjeta__box {
   background-color: rgba(236, 180, 116, 0.493);
   padding: 10px;
-  margin: 30px;
-  position: relative;
-  transform: scale(1.1);
-  transition: ease-in 1s;
+  margin: 20px;
 }
 .tarjeta__box .tarjeta__padding-img {
   padding-bottom: 4px;
@@ -160,7 +157,7 @@ ol {
 
 .tarjeta:hover {
   transform: scale(1.1);
-  transition: ease-in 1s;
+  transition: ease-out 1s;
 }
 
 .space {

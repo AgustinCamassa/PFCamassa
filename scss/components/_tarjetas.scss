@@ -2,11 +2,7 @@
     &__box{
         background-color: $color-s-transparencia;
         padding: 10px;
-        margin: 30px;
-        position: relative;
-
-        transform: scale(1.1);
-        transition: ease-in 1s;
+        margin: 20px;
 
         .tarjeta__padding-img{
             padding-bottom: 4px;
@@ -48,5 +44,5 @@
 
 .tarjeta:hover{
     transform: scale(1.1);
-    transition: ease-in 1s;
+    transition: ease-out 1s;
 }

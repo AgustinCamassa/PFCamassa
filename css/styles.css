@@ -190,12 +190,30 @@ ol {
   display: flex;
   justify-content: end;
 }
+@media (max-width: 991px) {
+  .footer2__box-redes--links .footer2__p {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px 0px 0px;
+  }
+}
 .footer2__box-redes--links .footer2__ul {
   gap: 30px;
   display: flex;
   justify-content: first baseline;
   padding: 16px 0px 0px 20px;
   background-color: rgb(161, 79, 97);
+}
+@media (max-width: 991px) {
+  .footer2__box-redes--links .footer2__ul {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px 0px 0px;
+  }
+}
+.footer2__box-redes--links .footer2__ul .footer2__li {
+  border-radius: 5px;
+  border: solid rgb(223, 164, 97) 2px;
 }
 
 .padding-index {

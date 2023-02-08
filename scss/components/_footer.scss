@@ -24,15 +24,16 @@
                 font-family: $fuente-principal;
                 font-size: 20px;
                 color: $color-secundario;
-                padding: 12px 0px 0px 0px;
+                padding: 14px 20px 0px 0px;
+                display: flex;
+                justify-content: end;
             }
 
             .footer2__ul{
-                display: flex;
                 gap: 30px;
                 display: flex;
-                justify-content: center;
-                padding: 16px 0px 0px 0px;
+                justify-content: first baseline;
+                padding: 16px 0px 0px 20px;
                 background-color: $color-primario;
             }            
         }

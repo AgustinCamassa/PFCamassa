@@ -26,6 +26,7 @@
                     max-height: 360px;
                     max-width: 600px;
                     overflow: auto;
+                    margin-bottom: 160px;
                 }
             }
 
@@ -35,7 +36,7 @@
                 justify-content: center;
 
                 .fondo__video{
-                    margin-top: 0px;
+                    margin-bottom: 160px;
                     border: solid $color-p-transparencia;
                     border-radius: 20px;
                 }

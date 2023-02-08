@@ -3,4 +3,7 @@
     border: solid 10px $color-p-transparencia;
     padding: 15px;
     border-radius: 30px;
+    @media (max-width: 990px){
+        margin-top: 100px;
+    }
 }

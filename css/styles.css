@@ -123,6 +123,11 @@ ol {
   padding: 15px;
   border-radius: 30px;
 }
+@media (max-width: 990px) {
+  .color-formularios {
+    margin-top: 100px;
+  }
+}
 
 .tarjeta__box {
   background-color: rgba(236, 180, 116, 0.493);

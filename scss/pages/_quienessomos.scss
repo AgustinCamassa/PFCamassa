@@ -5,24 +5,41 @@
     background-size: cover;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    overflow: auto;
 
-    padding: 50px;
+    &__container{
+        .fondo__row{
+            .fondo__section-texto{
+                overflow: auto;
+                .fondo__texto{
+                    background-color: $color-s-transparencia;
+                    border: solid 3px $color-p-transparencia;
+                    margin: 0px 20px 40px 20px;
+                    padding: 10px;
+                    border-radius: 30px;
+                    box-sizing: border-box;
+                    color: $color-texto-box;
+                    font-family: $fuente-principal;
+                    font-size: 24px;
+                    max-height: 360px;
+                    max-width: 600px;
+                    overflow: auto;
+                }
+            }
 
-    &__box{
-        background-color: $color-s-transparencia;
-        height: 280px;
-        width: 820px;
-        
-        border: solid 10px $color-p-transparencia;
-        padding: 15px;
-        border-radius: 30px;
-        overflow: auto;
-    }
+            .fondo__section-video{
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
-    &__texto{
-        color: $color-texto-box;
-        font-family: $fuente-principal;
+                .fondo__video{
+                    margin-top: 0px;
+                    border: solid $color-p-transparencia;
+                    border-radius: 20px;
+                }
+            }
+        }
     }
 }

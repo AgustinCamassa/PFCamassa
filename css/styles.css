@@ -157,7 +157,7 @@ ol {
 
 .tarjeta:hover {
   transform: scale(1.1);
-  transition: ease-out 1s;
+  transition: 1s;
 }
 
 .space {
@@ -210,22 +210,36 @@ ol {
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 50px;
-}
-.fondo__box {
-  background-color: rgba(236, 180, 116, 0.493);
-  height: 280px;
-  width: 820px;
-  border: solid 10px rgba(175, 33, 64, 0.511);
-  padding: 15px;
-  border-radius: 30px;
+  justify-content: center;
   overflow: auto;
 }
-.fondo__texto {
+.fondo__container .fondo__row .fondo__section-texto {
+  overflow: auto;
+}
+.fondo__container .fondo__row .fondo__section-texto .fondo__texto {
+  background-color: rgba(236, 180, 116, 0.493);
+  border: solid 3px rgba(175, 33, 64, 0.511);
+  margin: 0px 20px 40px 20px;
+  padding: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
   color: rgba(31, 31, 32, 0.792);
   font-family: Cursive;
+  font-size: 24px;
+  max-height: 360px;
+  max-width: 600px;
+  overflow: auto;
+}
+.fondo__container .fondo__row .fondo__section-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fondo__container .fondo__row .fondo__section-video .fondo__video {
+  margin-top: 0px;
+  border: solid rgba(175, 33, 64, 0.511);
+  border-radius: 20px;
 }
 
 .fondo-n {
